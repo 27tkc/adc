@@ -17,8 +17,6 @@ This project focuses on building a **scalable frontend architecture** with **reu
 - 🎯 Component-driven development approach
 - 🎨 Styled with Tailwind CSS
 
----
-
 ## 🛠️ Tech Stack
 
 - **Next.js**
@@ -26,8 +24,6 @@ This project focuses on building a **scalable frontend architecture** with **reu
 - **TypeScript**
 - **Tailwind CSS**
 - **ESLint**
-
----
 
 ## 🎯 Purpose of the Project
 
@@ -37,8 +33,6 @@ This project is built as part of frontend practice to:
 - Learn **component reusability and design systems**
 - Simulate a **real-world production-ready application**
 - Build a strong **portfolio project for frontend roles**
-
----
 
 ## 📌 Future Improvements
 
