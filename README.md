@@ -1,6 +1,7 @@
 ## 🦷 Dental Clinic Web App
 
 ADC stands Amit Dental Clinic
+
 A modern, responsive dental clinic application built using **Next.js (App Router)**, **TypeScript**, and **Tailwind CSS**.
 This project focuses on building a **scalable frontend architecture** with **reusable UI components** and clean design patterns used in real-world applications.
 
