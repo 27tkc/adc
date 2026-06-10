@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export const Navbar = () => {
   return (
-    <nav className="fixed top-8 z-50 w-[80%]  rounded-4xl shadow-md backdrop-blur-md left-1/12 overflow-hidden">
+    <nav className="fixed top-8 z-50 w-[70%]  rounded-4xl shadow-md backdrop-blur-md left-1/7 overflow-hidden">
       <div className="mx-auto px-3 py-1 flex justify-between items-center">
         {/* Logo */}
         <Link

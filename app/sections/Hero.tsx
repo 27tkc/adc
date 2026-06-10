@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="absolute inset-0 bg-black/40"></div>
 
         {/* Content */}
-        <div className="relative z-10 flex items-center h-full mt-40">
+        <div className="relative z-10 flex items-center h-full mt-40 mb-30">
           <div className="px-8 w-full flex justify-center items-center">
             <div className="flex flex-col  gap-6 text-white">
               <h1 className="text-5xl md:text-7xl font-bold leading-tight">
