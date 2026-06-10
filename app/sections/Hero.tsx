@@ -1,26 +1,40 @@
 const Hero = () => {
   return (
-    <section className="hero">
-      <div className="bg-[url('/hero.png')] bg-cover bg-center rounded-xl w-full">
-        <div className="h-150">
-          <div className="flex flex-row items-start justify-center h-full gap-8 p-10 text-white">
-            <span>
-              <p className="text-md font-light tracking-wide">
-                Expert dental care for healthy, confident smiles at every age -
-                delivered with comfort, precision, and trust.
-              </p>
-            </span>
-            <span className="flex flex-col items-center justify-center gap-4">
-              <h1 className="text-5xl font-bold ">
-                <p>MODERN</p>
-                <p>DENTISTRY WITH</p>
-                <p>GENTLE CARE</p>
+    <section id="hero" className="p-2 w-full ">
+      <div
+        className="relative min-h-[60vh] rounded-3xl overflow-hidden bg-cover bg-center"
+        style={{ backgroundImage: "url('/hero.png')" }}
+      >
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black/40"></div>
+
+        {/* Content */}
+        <div className="relative z-10 flex items-center h-full mt-40">
+          <div className="px-8 w-full flex justify-center items-center">
+            <div className="flex flex-col  gap-6 text-white">
+              <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+                Modern Dentistry
+                <br />
+                With Gentle Care
               </h1>
-            </span>
+
+              <p className="text-lg md:text-xl text-white/90 max-w-2xl leading-relaxed">
+                Expert dental care for healthy, confident smiles at every age.
+                Experience comfort, precision, and personalized treatment in a
+                welcoming environment.
+              </p>
+
+              <div className="flex flex-wrap gap-4 pt-2">
+                <button className="px-6 py-3 rounded-full bg-white text-black font-medium hover:bg-gray-100 transition">
+                  Book an appointment today !
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
   );
 };
+
 export default Hero;
